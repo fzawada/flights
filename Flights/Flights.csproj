@@ -39,6 +39,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DepartureInTheFutureSpecification.cs" />
     <Compile Include="FlighBuilder.cs" />
     <Compile Include="Flight.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
