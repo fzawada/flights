@@ -1,9 +1,10 @@
 ﻿using System;
 using System.Linq;
+using Flights.Specifications;
 
 namespace Flights
 {
-    public class DepartureInTheFutureSpecification
+    public class DepartureInTheFutureSpecification : ISpecification<Flight>
     {
         public bool IsSatisfiedBy(Flight flight)
         {

@@ -1,9 +1,10 @@
 ﻿using System;
 using Flights;
+using Flights.Specifications;
 
 namespace FlightsTests
 {
-    public class SpendsUpTo2HoursOnTheGroundSpecification
+    public class SpendsUpTo2HoursOnTheGroundSpecification : ISpecification<Flight>
     {
         public bool IsSatisfiedBy(Flight flight)
         {

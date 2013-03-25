@@ -1,8 +1,9 @@
 ﻿using System;
+using Flights.Specifications;
 
 namespace Flights
 {
-    public class ArrivalAfterDepartureSpecification
+    public class ArrivalAfterDepartureSpecification : ISpecification<Flight>
     {
         public bool IsSatisfiedBy(Flight flight)
         {
