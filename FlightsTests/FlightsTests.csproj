@@ -45,6 +45,7 @@
     <Compile Include="ArrivalAfterDepartureSpecificationTests.cs" />
     <Compile Include="DepartureInTheFutureSpecificationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpendsUpTo2HoursOnTheGroundSpecificationTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
